@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Salveen\\source\\repos\\miniPaint2\\miniPaint2\\miniPaint2.csproj",
+      "projectUniqueName": "C:\\GitHubRep\\miniPaint\\miniPaint2\\miniPaint2\\miniPaint2.csproj",
       "projectName": "miniPaint2",
-      "projectPath": "C:\\Users\\Salveen\\source\\repos\\miniPaint2\\miniPaint2\\miniPaint2.csproj",
+      "projectPath": "C:\\GitHubRep\\miniPaint\\miniPaint2\\miniPaint2\\miniPaint2.csproj",
       "packagesPath": "C:\\Users\\Salveen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Salveen\\source\\repos\\miniPaint2\\miniPaint2\\obj\\",
+      "outputPath": "C:\\GitHubRep\\miniPaint\\miniPaint2\\miniPaint2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

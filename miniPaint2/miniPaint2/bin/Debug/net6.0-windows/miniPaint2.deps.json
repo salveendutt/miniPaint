@@ -11,11 +11,20 @@
           "miniPaint2.dll": {}
         },
         "resources": {
+          "pl-PL/miniPaint2.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "pl/miniPaint2.resources.dll": {
+            "locale": "pl"
+          },
           "ru-RU/miniPaint2.resources.dll": {
             "locale": "ru-RU"
           },
           "ru/miniPaint2.resources.dll": {
             "locale": "ru"
+          },
+          "uk-UA/miniPaint2.resources.dll": {
+            "locale": "uk-UA"
           }
         }
       }

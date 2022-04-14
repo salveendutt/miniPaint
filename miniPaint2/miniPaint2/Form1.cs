@@ -24,7 +24,6 @@ namespace miniPaint2
         {
             //Main Drawing Pen
             pen = new Pen(Brushes.Black, 1);
-            //pen.StartCap = pen.EndCap = System.Drawing.Drawing2D.LineCap.Round;
             pen.DashCap = System.Drawing.Drawing2D.DashCap.Round;
             InitializeComponent();
 
@@ -53,7 +52,6 @@ namespace miniPaint2
                 pic.Click += new EventHandler(colorBoxes_Click);
             }
             g = Canvas.CreateGraphics();
-            //g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
             g.Clear(Color.White);
             g.Dispose();
@@ -315,7 +313,6 @@ namespace miniPaint2
 
         private void RussianButton_Click(object sender, EventArgs e)
         {
-            //Changing Language
             Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
 
@@ -357,7 +354,6 @@ namespace miniPaint2
 
         private void PolishButton_Click(object sender, EventArgs e)
         {
-            //Changing Language
             Thread.CurrentThread.CurrentCulture = new CultureInfo("pl-PL");
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("pl-PL");
 
