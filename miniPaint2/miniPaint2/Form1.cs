@@ -302,22 +302,6 @@ namespace miniPaint2
             current = PaintMode.Eraser;
             pen.Color = Color.White;
         }
-
-        private void EnglishButton_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-EN");
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-
-            ChangeLanguageSettings();
-        }
-
-        private void RussianButton_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
-
-            ChangeLanguageSettings();
-        }
         public void ChangeLanguageSettings()
         {
             //Saving Value of the Combobox
@@ -351,7 +335,20 @@ namespace miniPaint2
             currentColorButton.BackColor = pen.Color;
             ComboBox1.SelectedIndex = tempComboBoxValue;
         }
+        private void EnglishButton_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en-EN");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
 
+            ChangeLanguageSettings();
+        }
+        private void RussianButton_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
+
+            ChangeLanguageSettings();
+        }
         private void PolishButton_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("pl-PL");
